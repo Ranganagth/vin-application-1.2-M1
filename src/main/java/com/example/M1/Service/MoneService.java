@@ -89,7 +89,7 @@ public class MoneService {
 				
 			    if(sp>=300)sp = 300;
 			    else if(sp<=0) sp = 0;
-			    System.out.println("final speed = "+sp);
+			    System.out.println("final speed is = "+sp);
 				return Integer.toString(sp);
 			}
 			
